@@ -1,5 +1,19 @@
-#import "style.local.typ": *
+#import "defs.local.typ": *
 
+#set page(
+  paper: "a4",
+  margin: (
+    top: 2cm,
+    bottom: 2cm,
+    left: 1.5cm,
+    right: 1cm,
+  ),
+  numbering: "1/1"
+)
+#set text(
+    font: "Nimbus Roman", 
+    size: 12pt
+)
 #set par(justify: true)
 #grid(
   columns: (1fr, 1fr),
@@ -242,7 +256,7 @@ Art. 7. The sole owner of the capital is #FIRST_NAME_EN #LAST_NAME_EN.
 
 #v(1em)
 
-Art. 8. The capital of the company is in the amount of EUR #CAPITAL /three hundred/, which consists of #SHARES /#SHARES_EN/ 
+Art. 8. The capital of the company is in the amount of EUR #CAPITAL /#CAPITAL_EN/, which consists of #SHARES /#SHARES_EN/ 
 company shares, with a nominal value of EUR #NOMINAL /#NOMINAL_EN/ for each share. The shares of the company are indivisible. 
 All #SHARES /#SHARES_EN/ shares are owned by #FIRST_NAME_EN #LAST_NAME_EN, born on #BIRTH_DATE, citizen of #CITIZENSHIP_EN, holder 
 of a #PASSPORT_EN No. #PASSPORT_NR, issued on #PASSPORT_ISSUED, valid until #PASSPORT_VALID. At the time of the 

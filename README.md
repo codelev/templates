@@ -10,8 +10,8 @@ These templates are licensed by **FINANCE EXPERT LTD** (+359 87 787 2874) under 
 
 ## Usage
 
-1. Copy `style.typ` to `style.local.typ`.
-2. Update `style.local.typ` with your details.
+1. Copy `defs.typ` to `defs.local.typ`.
+2. Update `defs.local.typ` with your details.
 3. Install PDF converter: `sudo snap install typst`.
 4. Generate PDF files e.g. `typst compile incorporation-act.typ`
 

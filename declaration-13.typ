@@ -1,5 +1,19 @@
-#import "style.local.typ": *
+#import "defs.local.typ": *
 
+#set page(
+  paper: "a4",
+  margin: (
+    top: 2cm,
+    bottom: 2cm,
+    left: 1.5cm,
+    right: 1cm,
+  ),
+  numbering: "1/1"
+)
+#set text(
+    font: "Nimbus Roman", 
+    size: 12pt
+)
 #set par(justify: true)
 #grid(
   columns: (1fr, 1fr),
