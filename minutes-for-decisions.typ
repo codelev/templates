@@ -1,5 +1,19 @@
-#import "style.local.typ": *
+#import "defs.local.typ": *
 
+#set page(
+  paper: "a4",
+  margin: (
+    top: 2cm,
+    bottom: 2cm,
+    left: 1.5cm,
+    right: 1cm,
+  ),
+  numbering: "1/1"
+)
+#set text(
+    font: "Nimbus Roman", 
+    size: 12pt
+)
 #set par(justify: true)
 #grid(
   columns: (1fr, 1fr),
@@ -102,7 +116,7 @@ with NRA: #ADDRESS_EN, and e-mail address: #EMAIL_FIN.
 1.1.3. Subject of activity: computer programming (КИД-2025 62.10), information technology consultancy activities and 
 management and operation of computer facilities (КИД-2025 62.20), other information technology activities (КИД-2025 62.90).
 
-1.1.4. Capital: the capital of the company is in the amount of EUR #CAPITAL /three hundred/, which consists of #SHARES /#SHARES_EN/ 
+1.1.4. Capital: the capital of the company is in the amount of EUR #CAPITAL /#CAPITAL_EN/, which consists of #SHARES /#SHARES_EN/ 
 company shares, with a nominal value of EUR #NOMINAL /#NOMINAL_EN/ for each share. The shares of the company are indivisible. 
 All #SHARES /#SHARES_EN/ shares are owned by #FIRST_NAME_EN #LAST_NAME_EN, born on #BIRTH_DATE, citizen of #CITIZENSHIP_EN, holder of 
 a #PASSPORT_EN No. #PASSPORT_NR. At the time of the company's entry in the Commercial Register at the Registry Agency, 

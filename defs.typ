@@ -26,18 +26,3 @@
 #let NOMINAL_BG = "десет"
 #let NOMINAL_EN = "ten"
 #let TODAY = datetime.today().display("[day].[month].[year]")
-
-#set page(
-  paper: "a4",
-  margin: (
-    top: 2cm,
-    bottom: 2cm,
-    left: 1.5cm,
-    right: 1cm,
-  ),
-  numbering: "1/1"
-)
-#set text(
-    font: "Latin Modern Roman", 
-    size: 12pt
-)
