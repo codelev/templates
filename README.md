@@ -83,7 +83,7 @@ Fill in the required fields. If the form asks you to attach a document, choose a
 
 Great news — your company name should be reserved by now! Download the `Confirmation of the name reservation` [6] from the portal.
 
-Next up: generate, print, and sign all the `Incorporation documents` listed above. Use the `Incorporation act of a Sole Owner Limited Liability Company` template and mask the passport number, passport validity dates, birthdate and email. Once everything is signed, head to your bank with your passport and Bulgarian Identity Card.
+Next up: generate, print, and sign all the `Incorporation documents` listed above. Copy the `Incorporation act of a Sole Owner Limited Liability Company` and mask the passport number, passport validity dates, birthdate and email. Once everything is signed, head to your bank with your passport and Bulgarian Identity Card.
 
 Give them the signed `Incorporation act of a Sole Owner Limited Liability Company` and ask them to open an `Accumulation Account` [5]. This is a special account where you'll deposit your company's initial capital. This process costs around 100 EUR and takes about 10 working days for a decision.
 
