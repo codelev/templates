@@ -120,6 +120,12 @@ Once your application is approved, you'll see the result like `Registration 2026
 
 Head to your bank to convert `Accumulation Account` to `Current Account` [8]. Your company is now ready.
 
+## Invoicing
+
+1. Copy `defs-invoice.typ` to `defs-invoice.local.typ`.
+2. Update `defs-invoice.local.typ` with your details.
+3. Generate PDF file `typst compile invoice.typ "$(typst eval 'query(<filename>).first().value' --in invoice.typ | tr -d '"').pdf"`
+
 ## Glossary
 
 1. Търговски Регистър и Регистър на Юридическите Лица с Нестопанска Цел (ТРРЮЛНЦ): The Commercial Register and the Register of Non-Profit Legal Entities

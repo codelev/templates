@@ -26,3 +26,5 @@
 #let NOMINAL_BG = "десет"
 #let NOMINAL_EN = "ten"
 #let TODAY = datetime.today().display("[day].[month].[year]")
+#let LNCH = "1111111111"
+#let COMPANY_UIC = "222222222"

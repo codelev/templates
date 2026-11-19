@@ -38,7 +38,7 @@
 *С НАСТОЯЩAТA ДЕКЛАРИРАМ*
 
 истинността на обстоятелствата и приемането на актовете, отнасящи се до „#COMPANY_NAME_BG” ЕООД (в процес на учредяване), 
-заявени за вписване и/или представени за обявяване в Tърговския регистър от упълномощените от мен адвокати и лица.
+заявени за вписване и/или представени за обявяване в Tърговския регистър лично от мен.
 
 Известна ми е наказателната отговорност, която нося по чл. 313 от Наказателния кодекс, за декларирането на неверни данни.
   ],
@@ -53,8 +53,7 @@ I, the undersigned #FIRST_NAME_EN #LAST_NAME_EN, born on #BIRTH_DATE, citizen of
 *I HEREBY DECLARE*
 
 the truthfulness of the circumstances and the adoption of the acts relating to "#COMPANY_NAME_EN" LTD (in the process of 
-establishment), requested for entry and / or submitted for announcement in the Commercial Register by the 
-lawyers and persons authorized by me.
+establishment), requested for entry and / or submitted for announcement in the Commercial Register by me personally.
 
 I am aware of the criminal liability I bear under Art. 313 of the Criminal Code, for declaring false data.
 

@@ -1,0 +1,87 @@
+#import "defs.local.typ": *
+
+#set page(
+  paper: "a4",
+  margin: (
+    top: 2cm,
+    bottom: 2cm,
+    left: 1.5cm,
+    right: 1cm,
+  ),
+  numbering: "1/1"
+)
+#set text(
+    font: "Nimbus Roman", 
+    size: 12pt
+)
+#set par(justify: true)
+#grid(
+  columns: (1fr, 1fr),
+  gutter: 0.5cm,
+  [
+    #set par(justify: false)
+    #align(center)[
+      *ДЕКЛАРАЦИЯ по чл. 13, ал. 4 от Закона за търговския регистър и регистъра на юридическите лица с нестопанска цел*
+    ]
+  ],
+  [
+    #set par(justify: false)
+    #align(center)[
+      *DECLARATION under Art. 13, para. 4 of The Commercial Register and the Register of Non-Profit Legal Entities Act*
+    ]
+  ],
+  [
+Долуподписаният, #LAST_NAME_BG #FIRST_NAME_BG, гражданин на #CITIZENSHIP_BG, роден на #BIRTH_DATE г., ЛНЧ #LNCH,
+притежаващ #PASSPORT_BG № #PASSPORT_NR, действащ в качеството си на управител и едноличен собственик на капитала на
+„#COMPANY_NAME_BG” ЕООД, ЕИК #COMPANY_UIC, със седалище и адрес на управление: #ADDRESS_BG,
+
+*С НАСТОЯЩAТA ДЕКЛАРИРАМ*
+
+истинността на обстоятелствата и приемането на актовете, отнасящи се до „#COMPANY_NAME_BG” ЕООД, ЕИК #COMPANY_UIC,
+заявени за вписване и/или представени за обявяване в Tърговския регистър лично от мен.
+
+Известна ми е наказателната отговорност, която нося по чл. 313 от Наказателния кодекс, за декларирането на неверни данни.
+  ],
+  
+  
+  
+[
+I, the undersigned #FIRST_NAME_EN #LAST_NAME_EN, born on #BIRTH_DATE, citizen of #CITIZENSHIP_EN, Personal Number
+of a Foreigner #LNCH, holder of a #PASSPORT_EN passport No. #PASSPORT_NR, acting as manager and sole owner of the capital
+of "#COMPANY_NAME_EN" LTD, UIC #COMPANY_UIC, with registered office and address of management: #ADDRESS_EN,
+
+*I HEREBY DECLARE*
+
+the truthfulness of the circumstances and the adoption of the acts relating to "#COMPANY_NAME_EN" LTD, UIC #COMPANY_UIC,
+requested for entry and / or submitted for announcement in the Commercial Register by me personally.
+
+I am aware of the criminal liability I bear under Art. 313 of the Criminal Code, for declaring false data.
+
+  ],
+  [
+    #set par(justify: false)
+    #align(center)[
+      Дата: #TODAY
+
+      *ДЕКЛАРАТОР:*
+
+      #v(1em)
+      /подписано с КЕП/
+
+      #LAST_NAME_BG #FIRST_NAME_BG
+    ]
+  ],
+  [
+    #set par(justify: false)
+    #align(center)[
+      Date: #TODAY
+
+      *DECLARATOR:*
+
+      #v(1em)
+      /signed with QES/
+
+      #FIRST_NAME_EN #LAST_NAME_EN
+    ]
+  ],
+)
